@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.1.1/redux.min.js"
+      integrity="sha512-F21iSaHGX/3NFz5SuwoH6pGhTPxtoJoWWULqQVPQPtLm7nbK5r8vRSSSYy3Aj+H39cVrVm4+3ikGoVD1AjE0sQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body class="has-background-info-light">
+    <header class="container p-6 mt-6">
+      <div class="title has-text-centered has-text-dark">Counter App</div>
+    </header>
+    <main>
+      <div class="level">
+        <div class="level-item">
+          <div id="display" class="is-size-2">0</div>
+        </div>
+      </div>
+      <div class="level">
+        <div class="level-item">
+          <div class="button mx-4 step">5</div>
+          <div class="button mx-4 step">10</div>
+          <div class="button mx-4 step">15</div>
+        </div>
+      </div>
+      <div class="level">
+        <div class="level-item">
+          <div class="button mx-4 increment is-success">Increment</div>
+          <div class="button mx-4 decrement is-danger">Decrement</div>
+          <div class="button mx-4 reset is-info">Reset</div>
+        </div>
+      </div>
+    </main>
+    <script src="./counter.js"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+@import './node_modules/bulma/css/bulma.css';
+
+body {
+   min-height:100vh;
+   padding: 1rem 0;
+  }
+  
