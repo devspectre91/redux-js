@@ -1,3 +1,5 @@
+
+(()=>{
 let display = document.getElementById("display");
 
 let increment = document.querySelector(".increment");
@@ -56,3 +58,4 @@ reset.addEventListener("click", () => {
   step = 1;
   beautifyButton();
 });
+})()
